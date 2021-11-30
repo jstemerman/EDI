@@ -12,8 +12,10 @@ function setup() {//runs once
 
 function draw() {//runs in a loop
   background(220);
-
-image (img, 0, 0)
+  for(var y = 0; y < 600; y = y + 300){
+    for(var x = 0; x < 600; x = x + 300){
+image (img, x, y);
+}
 //   translate(60,60);
 //
 //   for(var y = 0; y < 600; y = y + 300)//loop to create columns
@@ -23,7 +25,6 @@ image (img, 0, 0)
 //        x + 300, y,
 //        x + 300, y + 300,
 //        x, y + 300);
-}
 //
 //   noLoop()
 // }
