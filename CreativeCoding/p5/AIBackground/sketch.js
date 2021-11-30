@@ -16,6 +16,9 @@ function draw() {//runs in a loop
     for(var x = 0; x < 600; x = x + 300){
 image (img, x, y);
 }
+}
+}
+
 //   translate(60,60);
 //
 //   for(var y = 0; y < 600; y = y + 300)//loop to create columns
