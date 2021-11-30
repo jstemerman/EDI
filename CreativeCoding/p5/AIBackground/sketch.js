@@ -1,7 +1,7 @@
 let img;
 
 function preload () {
-  img = loadImage('assets/Backgroundpractice.png');
+  img = loadImage('Assets/Backgroundpractice.png');
 }
 
 function setup() {//runs once
