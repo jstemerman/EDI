@@ -11,7 +11,7 @@ function draw() {//runs in a loop
 
     var sideLen = windowWidth/num; //variable for the side length of each square
 
-  for(var y = 0; y < windowWidth; y = y + sideLen) {//loop to create columns
+  for(var y = 0; y < windowHeight; y = y + sideLen) {//loop to create columns
 
   for(var x = 0; x < windowWidth; x = x + sideLen){ //loop to create rows
     quad (x, y,
