@@ -1,5 +1,5 @@
 function setup() {//runs once
-  createCanvas(windowWidth, windowWidth);
+  createCanvas(windowWidth, windowHeight);
   fill ('red');
   strokeWeight (1);
 }
