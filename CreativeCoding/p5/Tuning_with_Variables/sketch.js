@@ -1,3 +1,9 @@
+let gif;
+
+function preload(){
+  gif = loadImage (Assets_2/Backgroundpractice.png)
+}
+
 function setup() {//runs once
   createCanvas(windowWidth, windowHeight);
   fill ('red');
@@ -14,10 +20,8 @@ function draw() {//runs in a loop
   for(var y = 0; y < windowHeight; y = y + sideLen) {//loop to create columns
 
   for(var x = 0; x < windowWidth; x = x + sideLen){ //loop to create rows
-    quad (x, y,
-       x + sideLen, y,
-       x + sideLen, y + sideLen,
-       x, y + sideLen);
+
+    image (gif, x, y)
  }
   }
 
