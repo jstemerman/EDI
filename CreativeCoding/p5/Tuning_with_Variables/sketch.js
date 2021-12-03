@@ -1,31 +1,31 @@
-let gif;
-
-function preload(){
-  gif=loadImage('Assets_2/Skull.gif');
 
 
+let gif;//declare image variable
 
+function preload (){
+gif = loadImage ('Assets_2/Skull.gif');
 }
 
-
-function setup() {// runs ounces
+function setup() { //runs once
   createCanvas(windowWidth, windowHeight);
-  fill("red");
-  strokeWeight(1);
+
 }
 
 function draw() {
 
-var num = 20; // number of squares
-var sideLen = windowWidth/num; //side length of square
+translate(100, 100)
 
-  for (var x = 0; x < windowWidth; x = x + sideLen) {//squares in x direction
-    for (var y = 0; y < windowWidth; y = y + sideLen) {// in y direction
-image (gif,x,y);
+var num = 3; //variable for the number of squares in the grid
+var sideLen = windowWidth/num; //variable for the side length of each square
+
+  for (var y = 0; y < windowHeight + 100; y = y + sideLen) {//loop to create rows in the y direction
+     for (var x = 0; x < windowWidth + 100; x = x + sideLen) {// loop to create a row of squares in the x direction0
+image (gif, x, y);
   }
-  function windowResized(){
-  resizeCanvas(windowWidth, windowHeight);
+  }
+
 }
-  }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
