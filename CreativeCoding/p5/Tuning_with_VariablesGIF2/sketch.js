@@ -15,8 +15,6 @@ background (255);
 
 translate(-100, -100)
 
-
-
 var num = 50; //variable for the number of squares in the array
 var sideLen = windowWidth/num;//variable for the side lenth of each square
 
