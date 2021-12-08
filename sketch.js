@@ -1,7 +1,7 @@
 let gif;
 
 function preload (){
-  gif = loadImage ('Assets_2/Skull4.gif');
+  gif = loadImage ('Assets_2/SkullGif2.gif');
 }
 
 function setup() { //runs once
@@ -15,7 +15,7 @@ background (255);
 
 translate(-100, -100)
 
-var num = 65; //variable for the number of squares in the array
+var num = 57; //variable for the number of squares in the array
 var sideLen = windowWidth/num;//variable for the side lenth of each square
 
   for (var y = 0; y < 2*windowHeight; y = y + sideLen) {//loop to create rows in the y direction
