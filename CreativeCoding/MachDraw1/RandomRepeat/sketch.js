@@ -19,7 +19,7 @@ function setup() {
 function draw() {
   for (var y = 0; y < 600; y = y + 100){
   for(var x = 0; x < 600; x = x + 100){
-    line (x, y, x + random (60, 100), y + random (60, 100);
+    line (x, y, x + random (60, 100), y + random (60, 100));
   }
 }
   //save("mySVG.svg"); // give file name
