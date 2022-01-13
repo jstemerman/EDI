@@ -5,7 +5,7 @@ function preload (){
 }
 
 function setup() { //runs once
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight*2);
   fill('indigo');
   strokeWeight(1);
 }
